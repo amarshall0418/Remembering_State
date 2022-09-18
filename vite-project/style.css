@@ -1,0 +1,12 @@
+label {
+  display: block;
+}
+
+label input {
+  margin-right: 0.5rem;
+}
+
+.required:after {
+  content: '*';
+  color: pink;
+}
